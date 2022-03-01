@@ -1,32 +1,45 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 p {
   font-size: 18px;
 }
 /* header */
+header{
+  position: sticky;
+  top: 0%;
+  width: 100%;
+  z-index: 5;
+  
+}
 .logo {
-  background: linear-gradient(#4682b4, white);
+  background: linear-gradient(rgba(70, 130, 180, 1), rgba(70, 130, 180, 0.5), rgba(255, 255, 255, 0.5));
 }
 .logo img {
   width: 250px;
   margin: 20px 0px 0 50px;
 }
 .lista--nav {
+  background-color: rgba(255, 255, 255, 0.5);
+  
   display: inline-flex;
   list-style: none;
   float: right;
+  
 }
 .lista--nav a {
   text-decoration: none;
   color: black;
+  
 }
 .lista--nav li,
 .lista--menu li {
   padding-right: 20px;
   margin-top: 15px;
   font-size: 18px;
+  
 }
 /* menu */
 
@@ -153,16 +166,21 @@ p {
   padding: 100px 10px;
 }
 .formulario input,
+
 .formulario textarea {
   padding: 10px;
   border-color: lightgray;
   border-radius: 5px;
   margin: 5px;
 }
+.formulario button{
+  margin-top: 10px;
+ width: 100%;
+}
 /* footer */
 .footer--centrado {
   float: inline-end;
-  background: linear-gradient(white, steelblue);
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(70, 130, 180, 0.5),rgba(70, 130, 180, 1));
   color: black;
   padding: 50px;
   text-align: center;
