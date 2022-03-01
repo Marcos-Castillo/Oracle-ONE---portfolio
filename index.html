@@ -40,7 +40,7 @@
         <li>
           <a href="https://www.instagram.com/marcos_e_castillo/">Instagram</a>
         </li>
-        <li id="convertPdf">impresión Currículo</li>
+        <li id="convertPdf"><a href="#">impresión Currículo</a></li>
       </ul>
     </div>
     <!-- sobre mi -->
@@ -195,21 +195,35 @@
     <!-- formulario de contacto -->
     <div class="fila">
       <img class="img--contactos" src="img/contacto.png" alt="Foto contactos" />
-      <form action="" class="formulario">
+      <form action="mailto:marcos.castillo@gmail.com" method="get"class="formulario">
         <h2 class="titulo--secundario">Contacto</h2>
         <p>
           ¿Quieres contactarme? Complete el siguiente formulario y me pondré en
           contacto con usted lo antes posible.
         </p>
-        <input type="text" name="nombre" id="" placeholder="Nombre" />
+        <input 
+        type="text" 
+        name="nombre" 
+        id="" 
+        placeholder="Nombre Apellido" />
         <input
           type="email"
           name="correo"
           id=""
           placeholder="correo@correo.com"
         />
-        <input type="text" name="asunto" id="" placeholder="Asunto" />
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input 
+        type="text" 
+        name="asunto" 
+        id="" 
+        placeholder="asunto" />
+        <textarea 
+        name="" 
+        id="" 
+        cols="30" rows="10"
+        placeholder="mensaje..."
+        ></textarea>
+        <input type="submit"  value="Enviar">
         <a class="btn">Enviar mensaje</a>
       </form>
     </div>
