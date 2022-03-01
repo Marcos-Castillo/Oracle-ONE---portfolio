@@ -5,122 +5,122 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Portfolio</title>
   </head>
-  <body>
+  <body >
+    <!-- logo y nav -->
     <header>
-      <div class="logo">Marcos</div>
+      <div class="logo"><img src="img/logo2.png" alt=""></div>
       <nav class="lista--nav">
-        <li>Sobre mi</li>
-        <li>Skills</li>
-        <li>Hobbies</li>
-        <li>Formación</li>
-        <li>Proyectos</li>
-        <li>marcos.castillo@gmail.com</li>
+        <li><a href="#sobreMi">Sobre mí</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="mailto:marcos.castillo@gmail.com">marcos.castillo@gmail.com</a></li>
       </nav>
     </header>
+    <!-- perfil  -->
     <div class="fila">
       <img class="img--pefil" src="img/perfil.jpeg" alt="Foto perfil Marcos" />
 
-      <h1>Hola, mi nombre es Marcos Castillo y soy desarrolador web</h1>
-      <h3>
+      <h1>Hola, mi nombre es Marcos Castillo y soy desarrollador web</h1>
+      <h3 class="descripcion--perfil">
         Soy formado en JavaScrip, HTML, CSS y actualmente estoy participando del
         proyecto Oracle ONE en Alura Latam.
       </h3>
 
       <ul class="lista--menu">
-        <li>Github</li>
-        <li>Linkedin</li>
-        <li>Instagram</li>
-        <li>Currículo PDF</li>
+        <li><a href="https://github.com/Marcos-Castillo">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/marcos-developer/">Linkedin</a></li>
+        <li><a href="https://www.instagram.com/marcos_e_castillo/">Instagram</a></li>
+        <li id="convertPdf">impresión Currículo</li>
+        
       </ul>
     </div>
+    <!-- sobre mi -->
     <div class="fila">
-      <h2 class="titulo--secundario">Sobre mi</h2>
+      <h2 id="sobreMi" class="titulo--secundario">Sobre mí</h2>
       <p>
-        Soy un desarollador web apasionado de la tecnoligia siempre buscando
-        algo nuevo que aprender y emprendiendo nuevos proyectos . Si quieren ver
-        mis proyectos lo podran encontrar en mi GitHub.
+        Soy un desarrollador web apasionado de la tecnología siempre buscando
+        algo nuevo que aprender y emprendiendo nuevos proyectos. Si quieren ver
+        mis proyectos lo podrán encontrar en mi GitHub.
       </p>
     </div>
+    <!-- skill -->
     <div class="fila">
-      <h2 class="titulo--secundario">Skills</h2>
-
-      <a href="https://www.java.com" rel="nofollow">
+      <h2 id="skills" class="titulo--secundario">Skills</h2>
+      <div class="ordenar--items">
         <img
           class="icono"
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
           alt="java"
         />
-      </a>
-      <a
-        href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-        rel="nofollow"
-      >
         <img
           class="icono"
           src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
           alt="javascript"
         />
-      </a>
-      <a
-        href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-        rel="nofollow"
-      >
         <img
           class="icono"
           src="https://camo.githubusercontent.com/984b2a88651f862c502e3881c6fa5d27f077948241fe49684a0879cae28014e2/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f68746d6c352f68746d6c352d6f726967696e616c2d776f72646d61726b2e737667"
           alt="html5"
-          data-canonical-src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
         />
-      </a>
-      <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="nofollow">
         <img
           class="icono"
           src="https://camo.githubusercontent.com/7894f44095e8df88e2c12b0f2c91441ca66d029cf10ae3c068362bb9e68d3df9/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f637373332f637373332d6f726967696e616c2d776f72646d61726b2e737667"
           alt="css3"
-          data-canonical-src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
         />
-      </a>
+      </div>
     </div>
+    <!-- Hobbies -->
     <div class="fila">
-      <h2 class="titulo--secundario">Hobbies</h2>
-      <ul>
-        <li>lista Hobbies</li>
+      <h2 id="hobbies" class="titulo--secundario">Hobbies</h2>
+      <ul class="ordenar--items" >
+        <li class="icono">Ajedrez</li>
+        <li class="icono">Tecnologia</li>
+        <li class="icono">Lectura</li>
+        <li class="icono">Video juegos</li>
       </ul>
     </div>
+    <!-- formacion academica -->
     <div class="fila">
-      <h2 class="titulo--secundario">Formación académica</h2>
-
-      <div class="tarjeta">
-        <p class="tarjeta--titulo">Alura latam</p>
-        <img class="icono" src="img/alura-logo.svg" alt="Alura latam" />
-        <p>Formación en UX Design</p>
-        <p>2019 - Alura</p>
-      </div>
-      <div class="tarjeta">
-        <p class="tarjeta--titulo">Udemy</p>
-        <img class="icono" src="img/logo-udemy.svg" alt="Udemy" />
-        <p>Formación en UX Design</p>
-        <p>2019 - Alura</p>
-      </div>
-      <div class="tarjeta">
-        <p class="tarjeta--titulo">Fundacion Telefonica</p>
-        <img
-          class="icono"
-          src="img/Logo-FTM-Arg.png"
-          alt="Fundacion Telefonica"
-        />
-        <p>Formación en UX Design</p>
-        <p>2019 - Alura</p>
+      <h2 id="formacion" class="titulo--secundario">Formación académica</h2>
+      <div class="ordenar--items">
+        <div class="tarjeta">
+          <p class="tarjeta--titulo">Alura latam</p>
+          <img class="icono" src="img/alura-logo.svg" alt="Alura latam" />
+          <p>Formación en desarrollo web</p>
+          <p>2022 - Alura</p>
+        </div>
+        <div class="tarjeta">
+          <p class="tarjeta--titulo">Udemy</p>
+          <img class="icono" src="img/logo-udemy.svg" alt="Udemy" />
+          <p>Formación en desarrollo web</p>
+          <p>2021 - Udemy</p>
+        </div>
+        <div class="tarjeta">
+          <p class="tarjeta--titulo">Fundación Telefónica</p>
+          <img
+            class="icono"
+            src="img/Logo-FTM-Arg.png"
+            alt="Fundacion Telefonica"
+          />
+          <p>Formación en JavaScrip y Java</p>
+          <p>2021 - Fundación Telefónica</p>
+        </div>
       </div>
     </div>
+    <!-- experiencia profesional -->
     <div class="fila">
-      <h2 class="titulo--secundario">Experiencia profesional</h2>
+      <h2 id="proyectos" class="titulo--secundario">Experiencia profesional</h2>
+
       <div class="tarjeta--pagina">
         <img src="img/codigoSecreto.png" alt="imagen" />
         <div>
-          <p>Encriptador de texto</p>
-          <p>Challenge Alura Codificador</p>
-          <a class="btn" href="https://github.com/Marcos-Castillo/Oracle-ONE---encriptador"
+          <p>Encriptador de texto Challenge Alura</p>
+
+          <a
+            class="btn"
+            href="https://github.com/Marcos-Castillo/Oracle-ONE---encriptador"
             >Repositorio</a
           >
           <a
@@ -128,39 +128,43 @@
             class="btn btn-primary"
             >Ir a Pagina</a
           >
+        
         </div>
       </div>
       <div class="tarjeta--pagina">
-        <img src="img/ahorcadp.png" alt="imagen" />
         <div>
-          <p> Encriptador de texto</h3>
-          <p>Challenge Alura Codificador</p>
-          <a class="btn" href="https://github.com/Marcos-Castillo/Oracle-ONE---encriptador"
+          <p>Juego del ahorcado Challenge Alura</p>
+          <a
+            class="btn"
+            href="https://github.com/Marcos-Castillo/Oracle-ONE---ahorcado"
             >Repositorio</a
           >
           <a
-            href="https://marcos-castillo.github.io/Oracle-ONE---encriptador/"
+            href="https://marcos-castillo.github.io/Oracle-ONE---ahorcado/"
             class="btn btn-primary"
             >Ir a Pagina</a
           >
         </div>
+        <img src="img/ahorcadp.png" alt="imagen" />
       </div>
       <div class="tarjeta--pagina">
         <img src="img/practica.png" alt="imagen" />
         <div>
-          <p>Encriptador de texto</p>
-          <p>Challenge Alura Codificador</p>
-          <a class="btn" href="https://github.com/Marcos-Castillo/Oracle-ONE---encriptador"
+          <p>Primera practica HTML con CSS</p>
+          <a class="btn" href="https://github.com/Marcos-Castillo/practica-html"
             >Repositorio</a
           >
           <a
-            href="https://marcos-castillo.github.io/Oracle-ONE---encriptador/"
+            href="https://marcos-castillo.github.io/practica-html/"
             class="btn btn-primary"
             >Ir a Pagina</a
           >
+          
         </div>
+        
       </div>
     </div>
+    <!-- formulario de contacto -->
     <div class="fila">
       <img class="img--contactos" src="img/contacto.png" alt="Foto contactos" />
       <form action="" class="formulario">
@@ -181,8 +185,12 @@
         <a class="btn">Enviar mensaje</a>
       </form>
     </div>
+    <!-- pie de pagina -->
     <footer class="footer--centrado">
-      Desarrollado por Marcos Castillo 2022
+      <p>Desarrollado por Marcos Castillo 2022</p>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/polyfills.umd.js"></script>
+    <script src="js/logica.js"></script>
   </body>
 </html>
