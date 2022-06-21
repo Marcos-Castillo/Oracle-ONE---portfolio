@@ -81,7 +81,7 @@ function crearTarjeta(objeto){
     return `
         <div class="tarjeta">
           <p class="tarjeta--titulo">${objeto.curso}</p>
-          <img class="icono" src="img/libro-de-lectura.png" alt="Alura latam" />
+          <img class="icono" src="img/certificado.png" alt="Alura latam" />
           <p>${objeto.institucion}</p>
           <p>${objeto.finalizado}</p>
         </div>

@@ -90,10 +90,15 @@ box-shadow: 0px 0px 10px 10px #FFFFFF;
   margin: 20px 0;
 }
 /* sobre mi */
-/* skills */
 .ordenar--items {
+  display: flex;
+}
+
+/* skills */
+.ordenar--tarjeta {
   display: flexbox;
   flex-wrap: wrap;
+  
   
 }
 .icono {
